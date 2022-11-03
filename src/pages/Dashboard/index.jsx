@@ -70,7 +70,7 @@ export const Dashboard = () => {
             <main className='space-y-6'>
                 <section id='header' className='bg-red-500 text-white'>
                     <div className='container max-w-3xl space-y-2 p-4'>
-                        <span>Olá Pedro </span>
+                        <span>{`Olá ${auth.user.name}`}</span>
                         <h3 className='text-2xl font-bold'>Qual é o seu palpite?</h3>
                     </div>
                 </section>
